@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-[#282C33] text-white font-mono;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  ::selection {
+    @apply bg-[#C778DD]/20 text-[#C778DD];
+  }
+}
+
+@layer components {
+  .nav-link {
+    @apply text-[#ABB2BF] hover:text-[#C778DD] transition-colors relative;
+  }
+
+  .nav-link:hover::after {
+    content: '';
+    @apply absolute left-0 -bottom-1 w-full h-[1px] bg-[#C778DD];
+  }
+
+  .section-title {
+    @apply text-3xl font-bold mb-8;
+  }
+
+  .section-title span {
+    @apply text-[#C778DD];
+  }
+
+  .button {
+    @apply px-4 py-2 border border-[#C778DD] text-[#C778DD] hover:bg-[#C778DD] hover:text-white transition-colors;
+  }
+
+  .card {
+    @apply border border-[#ABB2BF] hover:border-[#C778DD] transition-colors;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-[#282C33];
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-[#ABB2BF] rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-[#C778DD];
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+  @apply overflow-x-hidden;
+}
+
+/* Dots pattern */
+.dots-pattern {
+  background-image: radial-gradient(#ABB2BF 1px, transparent 1px);
+  background-size: 16px 16px;
+} 
