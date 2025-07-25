@@ -2,10 +2,10 @@ import React from 'react';
 
 const Home = () => {
   return (
-    <section id="home" className="min-h-screen pt-20 px-4 md:px-8"> 
+    <section id="home" className="min-h-screen pt-20 px-4 md:px-8">
       <div className="max-w-6xl mx-auto">
         {/* Main Content */}
-        <div className="flex flex-col lg:flex-row items-start justify-between gap-12 py-30">
+        <div className="flex flex-col lg:flex-row items-center justify-between gap-12 py-30">
           {/* Left Content */}
           <div className="lg:w-1/2 space-y-6">
             <h1 className="text-4xl lg:text-5xl font-mono">
@@ -48,7 +48,7 @@ const Home = () => {
             {/* Image Container */}
             <div className="relative">
               <img
-                src="/images/profile.png"
+                src="/images/profile2.0.png"
                 alt="Jatin Nabhoya"
                 className="w-full"
               />
@@ -60,8 +60,8 @@ const Home = () => {
               <div className="absolute -bottom-6 left-6 right-6 bg-[#282C33] p-2 border border-[#ABB2BF]">
                 <div className="flex items-center gap-2">
                   <div className="w-2 h-2 bg-[#C778DD] rounded-full"></div>
-                  <span className="text-[#C778DD]">Currently working on</span>
-                  <span className="text-[#ABB2BF]">Portfolio</span>
+                  <span className="text-[#C778DD]">Building something meaningful — stay tuned.</span>
+                  {/* <span className="text-[#ABB2BF]">Portfolio</span> */}
                 </div>
               </div>
             </div>

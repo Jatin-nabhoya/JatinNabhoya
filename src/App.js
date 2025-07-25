@@ -12,11 +12,11 @@ import Footer from './components/Footer';
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  // const [isScrolled, setIsScrolled] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
-      // setIsScrolled(window.scrollY > 0);
+      setIsScrolled(window.scrollY > 0);
     };
 
     window.addEventListener('scroll', handleScroll);
@@ -25,7 +25,7 @@ function App() {
 
   return (
     <div className="bg-[#282C33] text-white min-h-screen">
-      <header className="fixed top-0 left-0 right-0 z-40 py-4 px-4 md:px-8">
+      <header className={`fixed top-0 left-0 right-0 z-40 py-4 px-4 md:px-8 transition-all duration-300 ${isScrolled ? 'bg-[#282C33]/70 backdrop-blur-md' : ''}`}>
         <div className="max-w-6xl mx-auto flex justify-between items-center">
           <div className="flex items-center gap-2">
             <div className="w-6 h-6 border border-[#C778DD] grid grid-cols-2">

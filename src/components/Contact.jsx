@@ -45,7 +45,7 @@ const Contact = () => {
                 <SocialLink 
                   href="mailto:jvnabhoya.work@gmail.com"
                   icon={
-                    <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                    <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
                       <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
                       <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
                     </svg>
@@ -70,18 +70,30 @@ const Contact = () => {
                   }
                   label="linkedin.com/in/jatin-nabhoya"
                 />
+                <SocialLink
+  href="https://medium.com/@jatin-nabhoya"
+  icon={
+    <svg className="w-5 h-5" viewBox="0 0 512 512" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+      <rect width="512" height="512" rx="100" fill="currentColor" />
+      <text x="95" y="360" fontFamily="Georgia, serif" fontSize="300" fill="black">Me</text>
+    </svg>
+  }
+  label="medium.com/@jatin-nabhoya"
+/>
+
               </div>
             </div>
           </div>
 
           {/* Contact Form */}
           <div className="border border-[#ABB2BF] p-6">
-            <form className="space-y-6">
+            <form className="space-y-6" action="https://formspree.io/f/mwpqoqyg" method="POST">
               <div>
                 <label htmlFor="name" className="block text-sm font-medium mb-2">Name</label>
                 <input
                   type="text"
                   id="name"
+                  name="name"
                   className="w-full bg-[#282C33] border border-[#ABB2BF] p-2 focus:border-[#C778DD] outline-none transition-colors"
                   required
                 />
@@ -91,6 +103,7 @@ const Contact = () => {
                 <input
                   type="email"
                   id="email"
+                  name="email"
                   className="w-full bg-[#282C33] border border-[#ABB2BF] p-2 focus:border-[#C778DD] outline-none transition-colors"
                   required
                 />
@@ -99,6 +112,7 @@ const Contact = () => {
                 <label htmlFor="message" className="block text-sm font-medium mb-2">Message</label>
                 <textarea
                   id="message"
+                  name="message"
                   rows="5"
                   className="w-full bg-[#282C33] border border-[#ABB2BF] p-2 focus:border-[#C778DD] outline-none transition-colors"
                   required

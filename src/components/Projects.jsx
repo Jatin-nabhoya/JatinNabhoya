@@ -145,7 +145,7 @@ const Projects = () => {
         "Designed an interactive dashboard in React.js for real-time tracking of application status and document validation results.",
         "Used statistical analysis to identify patterns in fraudulent applications, helping policymakers enhance verification strategies."
       ],
-      image: "/images/sih-project.png",
+      image: "/images/sih.png",
       sourceCode: "https://github.com/Jatin-nabhoya/VerifyScholar",
       liveDemo: "https://scholarship-verification-demo.com"
     }

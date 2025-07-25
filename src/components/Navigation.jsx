@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 const Navigation = ({ onClose }) => {
   return (
-    <div className="fixed inset-0 bg-[#282C33] z-50">
+    <div className="fixed inset-0 bg-[#282C33]/80 backdrop-blur-md z-50">
       <div className="flex justify-end p-4">
         <button
           onClick={onClose}
