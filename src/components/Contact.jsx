@@ -71,7 +71,7 @@ const Contact = () => {
                   label="linkedin.com/in/jatin-nabhoya"
                 />
                 <SocialLink
-  href="https://medium.com/@jatin-nabhoya"
+  href="https://medium.com/@jvnabhoya"
   icon={
     <svg className="w-5 h-5" viewBox="0 0 512 512" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
       <rect width="512" height="512" rx="100" fill="currentColor" />
