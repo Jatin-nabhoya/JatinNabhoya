@@ -55,7 +55,7 @@ const Footer = () => {
               </a>
               
               <a 
-                href="https://medium.com/@jatin-nabhoya"
+                href="https://medium.com/@jvnabhoya"
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-[#ABB2BF] hover:text-[#C778DD] transition-colors"
