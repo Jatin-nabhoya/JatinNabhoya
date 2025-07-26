@@ -78,7 +78,7 @@ const Contact = () => {
       <text x="95" y="360" fontFamily="Georgia, serif" fontSize="300" fill="black">Me</text>
     </svg>
   }
-  label="medium.com/@jatin-nabhoya"
+  label="medium.com/@jvnabhoya"
 />
 
               </div>
