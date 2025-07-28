@@ -42,7 +42,7 @@ const About = () => {
       degree: "Master of Science in Data Science | GPA : 4.00",
       university: "University of New Haven",
       duration: "Jan 2025 - Present",
-      description: "Mathematics for Data Science, Machine Learning, Deep Learning, Statistical Inference & Predictive Analytics"
+      description: "Mathematics for Data Science, Machine Learning, Statistical Inference & Predictive Analytics"
     },
     {
       degree: "Bachelor of Technology in Computer Engineering | GPA : 3.3",
@@ -64,20 +64,17 @@ const About = () => {
     ],
     "🧑‍💻 Programming Languages & Databases": [
       "Languages: Python",
-      "R",
       "SQL",
       "Relational DBs: PostgreSQL",
       "MySQL",
       "NoSQL DBs: MongoDB"
     ],
     "🤖 Machine Learning & AI": [
-      "Scikit-learn",
-      "TensorFlow",
-      "PyTorch",
-      "PySpark",
       "Pandas",
       "NumPy",
       "SciPy",
+      "Scikit-learn",
+      "PySpark (basics)",
       "Model Deployment",
       "MLOps Basics"
     ],
@@ -101,20 +98,11 @@ const About = () => {
     ],
     "☁️ DevOps, Cloud & Deployment": [
       "AWS (S3, Lambda, Translator)",
-      "Azure (Blob Storage, Synapse, Data Lake)",
       "Git",
       "GitHub",
       "Docker",
       "CI/CD (Basics)"
     ],
-    "🧱 Big Data Technologies": [
-      "Apache Spark (PySpark)",
-      "Hadoop (HDFS, MapReduce basics)",
-      "Hive",
-      "Kafka (Basics)",
-      "Azure Synapse",
-      "Databricks"
-    ]
   };
 
   return (
