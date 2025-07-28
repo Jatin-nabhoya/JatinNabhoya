@@ -139,11 +139,16 @@ const Projects = () => {
         "React.js"
       ],
       description: [
-        "Built an ML-powered document verification system using OCR and NLP, improving fraud detection accuracy by 30%.",
-        "Implemented deep learning models (CNN + RNN) to detect fraudulent documents, improving verification accuracy by 30%.",
-        "Integrated AWS S3 for secure document storage and AWS Translator for multilingual support, ensuring accessibility for diverse applicants.",
-        "Designed an interactive dashboard in React.js for real-time tracking of application status and document validation results.",
-        "Used statistical analysis to identify patterns in fraudulent applications, helping policymakers enhance verification strategies."
+        // "Built an ML-powered document verification system using OCR and NLP, improving fraud detection accuracy by 30%.",
+        // "Implemented deep learning models (CNN + RNN) to detect fraudulent documents, improving verification accuracy by 30%.",
+        // "Integrated AWS S3 for secure document storage and AWS Translator for multilingual support, ensuring accessibility for diverse applicants.",
+        // "Designed an interactive dashboard in React.js for real-time tracking of application status and document validation results.",
+        // "Used statistical analysis to identify patterns in fraudulent applications, helping policymakers enhance verification strategies."
+        
+        "Created a web application to streamline scholarship application and document submission processes, utilizing a DigiLocker API for secure document management.",  
+        "Implemented with ReactJS for frontend interactivity, Django for backend logic, and MySQL for database management. Utilized AWS services including AWS Translator for multilingual support and AWS S3 for scalable storage solutions.",
+        "Automated scholarship status notifications via email service integration.",
+        "Automated the processing of student applications using Django, React, and AWS. The app supported AWS translate for multilingual support."
       ],
       image: "/images/sih.png",
       sourceCode: "https://github.com/Jatin-nabhoya/VerifyScholar",
